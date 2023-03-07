@@ -12,6 +12,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { GenerationCardComponent } from './generation-card/generation-card.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { GenerationCardListViewComponent } from './generation-card-list-view/generation-card-list-view.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
     NavBarComponent,
     FooterComponent,
     GenerationCardComponent,
-    ImageCarouselComponent
+    ImageCarouselComponent,
+    GenerationCardListViewComponent
   ],
   imports: [
     BrowserModule,

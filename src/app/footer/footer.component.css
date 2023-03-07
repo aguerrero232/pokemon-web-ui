@@ -2,15 +2,12 @@
     width: auto;
     max-width: 680px;
     padding: 0 15px;
-
 }
 
 /* stick footer at the bottom of the page */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
     background-color: #121212;
+    /* add a space between the footer and the body */
+        padding: 1rem 0;
 }

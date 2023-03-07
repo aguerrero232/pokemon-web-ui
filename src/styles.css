@@ -5,65 +5,27 @@ body {
     color: whitesmoke;
 }
 
-defaulttheme {
-    --color-bg: #121212;
-    --color-bg-variant: #292929;
+:root {
+    /* --color-bg: #121212;
+    --color-bg-variant: #292929; */
+
+    /* TODO: create per gen color scheme to be accessible in the application */
+
+    /* gen1 */
+
+    /* gen2 */
     --color-primary: rgb(122, 189, 255);
     --color-primary-variant: rgba(122, 189, 255, 0.4);
     --color-white: #dedede;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease;
+    /* etc per gen below */
 
+
+    --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
 
-/* use mewtwo color pallette */
-gen1 {
-    --color-bg: #121212;
-    --color-bg-variant: #292929;
-    --color-primary: rgb(122, 189, 255);
-    --color-primary-variant: rgba(122, 189, 255, 0.4);
-    --color-white: #dedede;
-    --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease;
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
-}
-
-/* using the suicune color pallette */
-gen2 {
-    --color-bg: #121212;
-    --color-bg-variant: #292929;
-    --color-primary: rgb(122, 189, 255);
-    --color-primary-variant: rgba(49, 65, 139, .5);
-    --color-white: #dedede;
-    --color-light: #c594de;
-
-    --transition: all 400ms ease;
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
-}
-
-/* rayquaza color pallet */
-gen3 {
-    --color-bg: #121212;
-    --color-bg-variant: #292929;
-    --color-primary: rgb(122, 189, 255);
-    --color-primary-variant: rgba(49, 65, 139, .5);
-    --color-white: #dedede;
-    --color-light: #c594de;
-
-    --transition: all 400ms ease;
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
-}
