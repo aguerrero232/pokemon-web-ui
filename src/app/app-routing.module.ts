@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GenerationCardListViewComponent } from './generation-card-list-view/generation-card-list-view.component';
+import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
-  { path: '', component: GenerationCardListViewComponent },
-  { path: '*', component: GenerationCardListViewComponent }
+  { path: '', component: LandingComponent },
+  { path: '*', component: LandingComponent }
 ];
 
 @NgModule({

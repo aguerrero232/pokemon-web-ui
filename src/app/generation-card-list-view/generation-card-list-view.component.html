@@ -1,5 +1,9 @@
-<div class="container">
-    <span *ngFor="let i of num_generations">
-        <app-generation-card></app-generation-card>
-    </span>
+<div class="one-big-boi">
+
+    <div class="container">
+        <span *ngFor="let i of generations">
+            <app-generation-card [generation]=i></app-generation-card>
+        </span>
+    </div>
+
 </div>

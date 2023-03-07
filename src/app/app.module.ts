@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GenerationCardComponent } from './generation-card/generation-card.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { GenerationCardListViewComponent } from './generation-card-list-view/generation-card-list-view.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GenerationCardListViewComponent } from './generation-card-list-view/gen
     FooterComponent,
     GenerationCardComponent,
     ImageCarouselComponent,
-    GenerationCardListViewComponent
+    GenerationCardListViewComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
